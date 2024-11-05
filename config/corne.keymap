@@ -18,7 +18,7 @@
 // | ESC  |  A  |  S  |  D  |  F  |  G  |   |  H  |  J   |  K  |  L  |  ;  |  '   |
 // | GUI  |  Z  |  X  |  C  |  V  |  B  |   |  N  |  M   |  ,  |  .  |  /  | ENT  |
 //                    | ALT | RSE | SHFT|   | SPC | LWR  | CTRL|
-                        label = "Base";
+                        display-name = "Base";
                         bindings = <
    &kp TAB  &kp Q &kp W &kp E &kp R &kp T   &kp Y &kp U  &kp I     &kp O   &kp P    &kp BSPC
    &kp ESC  &mt LGUI A &mt LALT S &mt LSHIFT D &mt LCTL F &kp G   
@@ -33,7 +33,7 @@
 // |      |     |     |     |     |     |   | LFT | DWN |  UP | RGT |     |      |
 // | BTCLR| BT1 | BT2 | BT3 | BT4 | BT5 |   |     |     |     |     |     |      |
 //                    |     |     |     |   |     |     |     |
-                        label = "Lower";
+                        display-name = "Lower";
                         bindings = <
    &kp GRAVE  &kp N1       &kp N2       &kp N3       &kp N4       &kp N5         &kp N6   &kp N7   &kp N8 &kp N9    &kp N0 &kp BSPC
    &trans     &trans       &trans       &trans       &trans       &trans         &kp LEFT &kp DOWN &kp UP &kp RIGHT &trans &trans
@@ -48,7 +48,7 @@
 // |      |     |     |     |     |     |   |  -  |  =  |  [  |  ]  |  \  |      |
 // |      |     |     |     |     |     |   |  _  |  +  |  {  |  }  | "|" |      |
 //                    |     |     |     |   |     |     |     |
-                        label = "Raise";
+                        display-name = "Raise";
                         bindings = <
    &kp TILDE &kp EXCL &kp AT &kp HASH &kp DLLR &kp PRCNT   &kp CARET &kp AMPS  &kp STAR &kp LPAR &kp RPAR &trans
    &trans    &trans   &trans  &trans   &trans   &trans      &kp MINUS &kp EQUAL &kp LBKT &kp RBKT &kp BSLH &trans
