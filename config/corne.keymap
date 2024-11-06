@@ -9,8 +9,8 @@
 #include <dt-bindings/zmk/bt.h>
 
 &mt {
-    retro-tap;
-    flavor = "balanced";
+    require-prior-idle-ms = <125>;
+    flavor = "tap-preferred";
 };
 
 / {
